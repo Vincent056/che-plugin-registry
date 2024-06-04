@@ -55,6 +55,6 @@ jobs:
       - name: push plugin registry image
         run: |
           SHORT_SHA1=$(git rev-parse --short HEAD)
-          docker tag quay.io/eclipse/che-plugin-registry:next quay.io/eclipse/che-plugin-registry:${SHORT_SHA1}
-          docker push quay.io/eclipse/che-plugin-registry:next
-          docker push quay.io/eclipse/che-plugin-registry:${SHORT_SHA1}
+          docker tag quay.io/vincent7/che-plugin-registry:next quay.io/eclipse/che-plugin-registry:${SHORT_SHA1}
+          docker push quay.io/vincent7/che-plugin-registry:next
+          docker push quay.io/vincent7/che-plugin-registry:${SHORT_SHA1}
