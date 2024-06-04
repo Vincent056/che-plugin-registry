@@ -220,5 +220,10 @@
     },
     {
         "id": "cnshenj.vscode-task-manager"
+    },
+    {
+        "id": "GitHub.copilot",
+        "download": " https://marketplace.visualstudio.com/_apis/public/gallery/publishers/GitHub/vsextensions/copilot/1.198.0/vspackage",
+        "version": "1.198.0"
     }
 ]
